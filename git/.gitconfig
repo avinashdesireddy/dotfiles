@@ -1,0 +1,12 @@
+[core]
+    editor = vim
+	excludesfile = ~/.gitignore
+[user]
+	name = Avinash Desireddy
+	email = avinashr.desireddy@gmail.com
+    username = avinashdesireddy
+
+[core]
+    editor = vim
+    excludesfile = ~/.gitignore
+

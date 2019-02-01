@@ -13,6 +13,12 @@ function docker_config {
     cp -R $basedir/docker ~/.docker
 }
 
+function zsh_config {
+    ## Install zsh config
+    sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+}
+
 if [ $# -ne 1 ]; then
     echo "Usage: $0 (git|docker)"
     exit

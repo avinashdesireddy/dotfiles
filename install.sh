@@ -19,6 +19,13 @@ function zsh_config {
 
 }
 
+function osx_config {
+    ## TODO: Identify mac operating system
+    ## TODO: Identify brew status
+    brew install jq # JQ is a command-line json parser 
+    brew install git atom
+}
+
 if [ $# -ne 1 ]; then
     echo "Usage: $0 (git|docker)"
     exit

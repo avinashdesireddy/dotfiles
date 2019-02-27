@@ -1,0 +1,12 @@
+colorscheme desert
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set fileformat=unix
+
+syntax enable
+set number
+set showmatch
+let python_highlight_all = 1

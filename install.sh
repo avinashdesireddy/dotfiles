@@ -19,6 +19,13 @@ function zsh_config {
 
 }
 
+function shell_config {
+    # Setup Screenrc
+    cp $basedir/linux/screenrc ~/.screenrc
+    # Setup VIM config
+    cp $basedir/linux/vimrc ~/.vimrc
+}
+
 function osx_config {
     ## TODO: Identify mac operating system
     ## TODO: Identify brew status

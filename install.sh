@@ -16,7 +16,6 @@ function docker_config {
 function zsh_config {
     ## Install zsh config
     sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 }
 
 function shell_config {
@@ -24,6 +23,8 @@ function shell_config {
     cp $basedir/linux/screenrc ~/.screenrc
     # Setup VIM config
     cp $basedir/linux/vimrc ~/.vimrc
+    # ZSH config
+    cp $basedir/libux/zprofile ~/.zprofile
 }
 
 function osx_config {

@@ -1,0 +1,5 @@
+
+function rm_known_hosts() {
+  no=$1
+  vim ~/.ssh/known_hosts +${no}d -c x
+}

@@ -32,6 +32,7 @@ function osx_config {
     ## TODO: Identify brew status
     brew install jq # JQ is a command-line json parser 
     brew install git atom
+    brew install terraform
 }
 
 if [ $# -ne 1 ]; then

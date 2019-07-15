@@ -1,3 +1,13 @@
+#!/bin/bash
+
+##########################################
+### Author: Avinash Desireddy
+### Github Handle: avinashdesireddy
+##########################################
+
+echo ""
+echo -e "DON'T RUN THIS AS SCRIPT.\nSource this file using the command \n\t$ source <path-to-file>/ucp-bundle.sh OR $ eval \"\$(<ucp-bundle.sh)\""
+echo ""
 [ -z "$UCP_FQDN" ] && read -p "UCP FQDN:" UCP_FQDN
 [ -z "$DUSER" ] && read -p "Username:" DUSER
 [ -z "$PASSWORD" ] && read -s -p "Password:" PASSWORD

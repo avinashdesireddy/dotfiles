@@ -33,6 +33,7 @@ function osx_config {
     brew install jq # JQ is a command-line json parser 
     brew install git atom
     brew install terraform
+    brew install asciinema ## Record terminal sessions
 }
 
 if [ $# -ne 1 ]; then

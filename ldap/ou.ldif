@@ -1,0 +1,7 @@
+dn: ou=Users,dc=AVINASH,dc=com
+objectClass: organizationalUnit
+ou: Users
+
+dn: ou=Groups,dc=AVINASH,dc=com
+objectClass: organizationalUnit
+ou: Groups

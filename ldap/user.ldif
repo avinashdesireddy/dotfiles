@@ -1,0 +1,12 @@
+dn=cn=avinash,DC=AVINASH,DC=COM
+displayNmae: "Avinash Desireddy"
+cn: Avinash
+givenName: Avinash Desireddy
+sn: avinash
+initials: AD
+main: avinashr.desireddy@gmail.com
+homeDirectory: /home/avinash
+gecos: avinash,,,,
+objectClass: inetOrgPerson
+objectClass: shadowAccount
+userPassword: {SSHA}9wUIYxF9xQ1QxC0+owi756u82BZKrNLW
